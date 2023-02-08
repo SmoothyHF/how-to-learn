@@ -1,0 +1,11 @@
+.cards__item {
+    width: 240px;
+    margin-right: 100px;
+    margin-bottom: 60px;
+    list-style-type: none;
+    text-align: center;
+}
+
+.cards__item:nth-last-of-type(3) {
+    margin-right: 0;
+}
