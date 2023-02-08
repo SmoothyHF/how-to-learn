@@ -4,8 +4,10 @@
     font-weight: normal;
     text-decoration: none;
     color: white;
-    margin-bottom: 10px; 
-  } 
-.footer__column-link:last-of-type{
-  margin: 0;
+    opacity: 1;
+    transition: opacity 0.6s linear;
+  }
+
+.footer__column-link:hover {
+  opacity: 0.5;
 }
